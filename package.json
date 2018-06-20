@@ -1,0 +1,30 @@
+{
+  "name": "youtube-coding-channels-api",
+  "version": "1.0.0",
+  "description": "A simple API for youtube channels about coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coinGuyBri/youtube-coding-channels-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coinGuyBri/youtube-coding-channels-api/issues"
+  },
+  "homepage": "https://github.com/coinGuyBri/youtube-coding-channels-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "node-http-error": "^2.0.0",
+    "nodemon": "^1.17.5",
+    "pouchdb-adapter-http": "^6.4.3",
+    "pouchdb-core": "^6.4.3",
+    "ramda": "^0.25.0"
+  }
+}
